@@ -1,0 +1,32 @@
+{
+
+    "name": "xandrew/service-builder",
+    "description": "Service builder",
+
+    "require": {
+        "twig/twig": "^1.18",
+        "doctrine/dbal": "^2.5",
+	    "redisent/redisent": "dev-master"
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/jdp/redisent.git"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "ServiceBuilder\\": "src/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Guba Andrei",
+            "email": "xg.andrew@gmail.com"
+        }
+    ]
+
+}
