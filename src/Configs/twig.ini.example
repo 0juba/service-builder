@@ -1,0 +1,12 @@
+[twig]
+debug=false
+charset='utf-8'
+base_template_class='Twig_Template'
+cache=false
+auto_reload=false
+strict_variables=true
+;autoescape=ones: html, js, url, css, html_attr
+;optimizations=
+
+[dirs];относительно корневой папки либы
+path1="Resources/Templates"

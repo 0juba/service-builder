@@ -30,10 +30,9 @@ trait SingletonTrait
     protected function __construct()
     {
 
-        $this->serviceName = strtolower (
-            array_pop (
-                explode ( '\\', get_called_class())
-            ));
+        $class = explode ( '\\', get_called_class());
+
+        $this->serviceName = strtolower ( array_pop ( $class ) );
 
         $this->loadConfig();
         $this->applyConfig();

@@ -2,6 +2,7 @@
 
     "name": "xandrew/service-builder",
     "description": "Service builder",
+    "version":"1.0.1",
 
     "require": {
         "twig/twig": "^1.18",
