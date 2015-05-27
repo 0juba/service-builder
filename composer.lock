@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7a47fd05ced09fd7b36993bd4b803349",
+    "hash": "1b749b2968fc32db76071f6ee3de5e2a",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -499,13 +499,14 @@
                     "redisent": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "ISC"
             ],
             "authors": [
                 {
                     "name": "Justin Poliey",
-                    "homepage": "http://justinpoliey.com/"
+                    "homepage": "https://github.com/jdp/redisent"
                 }
             ],
             "description": "Redisent",
@@ -513,10 +514,6 @@
             "keywords": [
                 "redis"
             ],
-            "support": {
-                "source": "https://github.com/jdp/redisent/tree/master",
-                "issues": "https://github.com/jdp/redisent/issues"
-            },
             "time": "2013-11-19 04:55:46"
         },
         {

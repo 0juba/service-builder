@@ -9,13 +9,6 @@
 	    "redisent/redisent": "dev-master"
     },
 
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "https://github.com/jdp/redisent.git"
-        }
-    ],
-
     "autoload": {
         "psr-4": {
             "ServiceBuilder\\": "src/"
