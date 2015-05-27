@@ -1,3 +1,4 @@
 vendor/*
 .idea/*
 src/Configs/*.ini
+app/index.php
