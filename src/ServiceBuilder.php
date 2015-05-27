@@ -7,9 +7,6 @@ require_once 'Core/Paths.php';
 class ServiceBuilder
 {
 
-    public $time = '';
-
-
     private static $container = [];
 
 
@@ -18,7 +15,7 @@ class ServiceBuilder
 
     private function __construct()
     {
-        $this->time = microtime();
+
     }
 
 
